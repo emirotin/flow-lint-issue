@@ -1,7 +1,5 @@
 /* @flow */
 
-export { filter, reject } from 'lodash'
-
 type TArrayPredicate<T> = (el: T, i: number) => boolean
 type TArrayMap<T> = (el: T, i: number) => T
 
