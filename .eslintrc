@@ -1,72 +1,15 @@
 {
   "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "modules": true
-    },
-  },
   "plugins": [
     "flowtype"
   ],
   "rules": {
-    
-    "func-names": "warn",
-    "indent": [ "warn", 2, { "SwitchCase": 1 } ],
-    "jsx-quotes": [ "warn", "prefer-double" ],
-    "key-spacing": "warn",
-    "keyword-spacing": "warn",
-    "linebreak-style": "warn",
-    "max-depth": [ "warn", 4 ],
-    "max-nested-callbacks": [ "warn", 3 ],
-    "max-params": [ "warn", 4 ],
-    "new-cap": [ "warn", { "capIsNew": false } ],
-    "new-parens": "error",
-    "no-array-constructor": "warn",
-    "no-lonely-if": "warn",
-    "no-mixed-operators": "warn",
-    "no-mixed-spaces-and-tabs": "error",
-    "no-multiple-empty-lines": "warn",
-    "no-nested-ternary": "warn",
-    "no-new-object": "warn",
-    "no-plusplus": "warn",
-    "no-spaced-func": "error",
-    "no-trailing-spaces": "warn",
-    "no-unneeded-ternary": "warn",
-    "no-whitespace-before-property": "warn",
-    "object-curly-spacing": [ "warn", "always" ],
-    "object-property-newline": [ "warn", { "allowMultiplePropertiesPerLine": true } ],
-    "one-var-declaration-per-line": [ "warn", "initializations" ],
-    "operator-assignment": [ "warn", "always" ],
-    "operator-linebreak": [ "warn", "after", { "overrides": { "?": "before", ":": "before" } } ],
-    "padded-blocks": [ "warn", "never" ],
-    "quote-props": [ "warn", "as-needed" ],
-    "space-before-blocks": [ "warn", "always" ],
-    "space-before-function-paren": [ "warn", { "anonymous": "always", "named": "never" } ],
-    "space-in-parens": [ "warn", "never" ],
-    "space-infix-ops": [ "warn", { "int32Hint": false } ],
-
-
-    "arrow-body-style": [ "warn", "as-needed" ],
-    "arrow-parens": [ "warn", "as-needed" ],
-    "arrow-spacing": "warn",
-    "constructor-super": "error",
-    "no-this-before-super": "error",
-    "generator-star-spacing": [ "warn", { "before": false, "after": true } ],
-    "no-class-assign": "error",
-    "no-confusing-arrow": [ "error", { "allowParens": true } ],
-    "no-const-assign": "error",
-    "no-dupe-class-members": "error",
-    "no-duplicate-imports": "warn",
-    "no-new-symbol": "error",
-    "no-useless-computed-key": "error",
-    "no-useless-constructor": "error",
-    "no-useless-rename": "error",
+    "space-infix-ops": "warn",
 
     "flowtype/define-flow-type": "warn",
     "flowtype/require-valid-file-annotation": "error",
     "flowtype/space-after-type-colon": [ "warn", "always" ],
     "flowtype/space-before-type-colon": [ "warn", "never" ],
-    "flowtype/type-id-match": [ "warn", "^T([A-Z][a-z0-9]+)+$" ],
     "flowtype/use-flow-type": "warn"
   },
   "settings": {
